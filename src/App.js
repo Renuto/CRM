@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Container fluid>
+      <Row fluid>
+        <Col
+          id="sidebarMenu"
+          className="d-md-block collapse sidebar block-color "
+          md={3}
+          lg={2}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Text
+        </Col>
+        <Col 
+          className="ms-sm-auto px-md-4 block-color bg-light"
+          md={9}
+          lg={10}
+        >
+          Text
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

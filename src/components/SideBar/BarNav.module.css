@@ -1,0 +1,4 @@
+.aside-primary {
+  flex-shrink: 0;
+  border-right: 0;
+}

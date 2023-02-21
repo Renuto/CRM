@@ -1,3 +1,7 @@
 .block-color {
   background-color: aquamarine;
 }
+.sidebar {
+  /* min-height: 100vh; */
+  height: 100vh;
+}

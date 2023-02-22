@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Container fluid>
+    <Container fluid style={{background:'rgb(243, 243, 243)'}}>
       <Row fluid>
         <Col id="sidebarMenu" className="d-md-block p-0 collapse" md="auto">
           <BarNav/>

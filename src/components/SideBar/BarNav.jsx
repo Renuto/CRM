@@ -13,7 +13,7 @@ const BarNav = () => {
 
   return (
     <div style={{ display: 'flex', height: '100%' }}>
-      <Sidebar backgroundColor='#181c32' className='vh-100'>
+      <Sidebar backgroundColor='#174d99' className='vh-100'>
         <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
 
           {/*****************Header*********************/}
@@ -28,16 +28,16 @@ const BarNav = () => {
                       color: disabled ? '#f5d9ff' : '#FFFFFF',
                       backgroundColor: active ? '#eecef9' : undefined,
                       '&:hover': {
-                        backgroundColor: '#262d49',
+                        backgroundColor: '#416e9f',
                       },
                     };
                   }
                   if (level === 1) {
                     return {
                       color: disabled ? undefined : '#FFFFFF',
-                      backgroundColor: active ? undefined : "#262d49",
+                      backgroundColor: active ? undefined : "#9bb2d3",
                       '&:hover': {
-                        backgroundColor: '#3b425b',
+                        backgroundColor: '#416e9f',
                       },
                     };
                   }

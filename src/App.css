@@ -1,7 +1,39 @@
-.block-color {
-  background-color: rgb(243, 243, 243);
+.main {
+  width: 100vw;
+  height: 100vh;
 }
 .sidebar {
   /* min-height: 100vh; */
   height: 100vh;
 }
+.flex-root {
+  flex: 1;
+}
+.sidebar {
+  position: fixed;
+  z-index: 100;
+}
+.home {
+  position: absolute;
+  min-height: 100vh;
+  top: 0;
+}
+.home-section {
+  left: 120px;
+  /* width: 100%; */
+  width: calc(100% - 120px);
+  transition: all 0.25s ease;
+}
+.home-section-bar-open {
+  left: 300px;
+  width: calc(100% - 300px);
+
+  transition: all 0.25s ease;
+}
+@media (max-width: 992px) {
+  .home{
+    left: 0px;
+    width: 100%;
+  }
+}
+

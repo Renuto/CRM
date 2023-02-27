@@ -4,12 +4,12 @@ import Table from 'react-bootstrap/Table';
 const DataTable = () => {
     
   return (
-    <div class="container-xxl">
-      <div class="card card-xxl-stretch">
-        <div class="card-body fs-6 text-gray-700">
+    <div className="container-xxl">
+      <div className="card card-xxl-stretch">
+        <div className="card-body fs-6 text-gray-700">
         <Table striped bordered hover>
             <thead>
-              <tr class="fw-bold fs-6 text-muted">
+              <tr className="fw-bold fs-6 text-muted">
                 <th>Name</th>
                 <th>Position</th>
                 <th>Office</th>

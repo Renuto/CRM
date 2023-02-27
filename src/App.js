@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import BarNav from "./components/sideBar/BarNav";
-import Header from "./components/header/Header";
+import BarNav from "./components/SideBar/BarNav";
+import Header from "./components/Header/Header";
 import DataTable from "./components/DataTable/DataTable";
 import { useState } from "react";
 import "./App.css";

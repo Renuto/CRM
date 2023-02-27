@@ -10,7 +10,7 @@ const HeaderBar = (props) => {
         </h1>
       ) : (
         <div
-          className={`${styles["logo-name"]} d-flex align-items-center me-4 pe-2`}
+          className={`${styles["logo-name"]} d-flex align-items-center me-4 mb-2 mt-3pe-2`}
         >
           <i className="bx bxs-doughnut-chart bx-md me-1"></i> DataCog
         </div>

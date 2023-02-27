@@ -8,7 +8,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [collapsed, setCollapsed] = useState("");
+  const [collapsed, setCollapsed] = useState(true);
   const isBarCollapsed = (isCollapsed) => {
     setCollapsed(isCollapsed);
     console.log(collapsed);
